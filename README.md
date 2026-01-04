@@ -26,3 +26,54 @@ It provides RESTful APIs to manage library books efficiently using CRUD operatio
 ## 📂 API Endpoints
 
 ### Create Book(s)
+POST /books
+
+
+### Get All Books
+
+
+GET /books
+
+
+### Get Books by Category
+
+
+GET /books/category/:category
+
+
+### Get Books After Year
+
+
+GET /books/after/:year
+
+
+### Update Copies
+
+
+PUT /books/copies/:id
+
+
+### Update Category
+
+
+PUT /books/category/:id
+
+
+### Delete Book (only if copies = 0)
+
+
+DELETE /books/:id
+
+
+## ✅ Features
+- Full CRUD operations
+- Category-based filtering
+- Conditional delete logic
+- Negative stock prevention
+- Error handling
+
+## 📌 Internship
+Naan Mudhalvan Internship – Day 4 Task
+
+## 👤 Developed By
+Kondragunta Naveen
